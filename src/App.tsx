@@ -3,11 +3,9 @@ import { useState } from 'react'
 
 function App() {
 
-  const names: string[] = [];
+  const names: readonly string[] = ['Dylan'];
 
-  names.push("Dylan");
-
-  names.push(3);
+  names.push("Jack");
 
   console.log(names);
 
