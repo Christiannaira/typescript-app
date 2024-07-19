@@ -3,12 +3,14 @@ import { useState } from 'react'
 
 function App() {
 
-  let v: any = true; 
+  const names: string[] = [];
 
-  v = "string";
+  names.push("Dylan");
 
+  names.push(3);
 
-  console.log(Math.round(v));
+  console.log(names);
+
 
   return (
     <>
