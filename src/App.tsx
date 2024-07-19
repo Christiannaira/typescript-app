@@ -3,9 +3,12 @@ import { useState } from 'react'
 
 function App() {
 
-  let firstName: string = "Dylan";
+  let v: any = true; 
 
-  console.log(typeof firstName);
+  v = "string";
+
+
+  console.log(Math.round(v));
 
   return (
     <>
