@@ -3,11 +3,17 @@ import { useState } from 'react'
 
 function App() {
 
-  const names: readonly string[] = ['Dylan'];
+  const numbers = [1, 2, 3];
 
-  names.push("Jack");
+  numbers.push(4);
 
-  console.log(names);
+  numbers.push("2");
+
+  console.log(numbers);
+  
+  let head: number = numbers[0];
+
+  console.log(head);
 
 
   return (
